@@ -1,0 +1,8 @@
+prefix=/home/nvidia/rigguv2/catkin_ws/devel
+
+Name: riggu_scripts
+Description: Description of riggu_scripts
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/nvidia/rigguv2/catkin_ws/devel/lib 
+Requires: 

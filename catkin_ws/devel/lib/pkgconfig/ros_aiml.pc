@@ -1,0 +1,8 @@
+prefix=/home/nvidia/rigguv2/catkin_ws/devel
+
+Name: ros_aiml
+Description: Description of ros_aiml
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/rigguv2/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/nvidia/rigguv2/catkin_ws/devel
+
+Name: sound_play
+Description: Description of sound_play
+Version: 0.3.3
+Cflags: -I/home/nvidia/rigguv2/catkin_ws/devel/include -I/home/nvidia/rigguv2/catkin_ws/src/audio_common-master/sound_play/include
+Libs: -L/home/nvidia/rigguv2/catkin_ws/devel/lib 
+Requires: message_runtime actionlib_msgs

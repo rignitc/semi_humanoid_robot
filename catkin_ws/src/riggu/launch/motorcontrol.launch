@@ -1,0 +1,13 @@
+<launch>
+	
+	<node pkg="riggu" type="control_motor.py" name="arduino" output="screen" launch-prefix="gnome-terminal --command">
+	</node>
+	<node pkg="riggu" type="joystick.py" name="joystick" output="screen" launch-prefix="gnome-terminal --command">
+	</node>
+	<node pkg="riggu" type="user_text_input.py" name="user_text_input" output="screen" launch-prefix="gnome-terminal --command">
+	</node>
+	<node pkg="riggu" type="text_interpreter.py" name="text_interpreter" >
+	</node>
+	<node pkg="riggu" type="speech_cmd.py" name="user_speech_input" output="screen" launch-prefix="gnome-terminal --command">
+	</node>
+</launch>
